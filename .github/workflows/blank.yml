@@ -41,8 +41,9 @@ jobs:
           
       - name: Execute python test
         run: |
-          pytest
           source env/bin/activate
+          pytest
+          
           
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
