@@ -58,4 +58,4 @@ jobs:
         
       - name: Copy to S3
         run: |
-          aws s3 cp /proyecto-prueba/utils.py s3://pruebabigdata1212/
+          aws s3 cp ../../utils.py s3://pruebabigdata1212/
