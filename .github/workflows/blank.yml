@@ -54,3 +54,8 @@ jobs:
           aws-region: us-east-1
       - name: List buckets
         run: aws s3 ls
+        
+        
+      - name: Copy to S3
+        run: |
+          aws s3 cp /proyecto-prueba/utils.py s3://pruebabigdata1212/
