@@ -9,8 +9,7 @@
             "s3transfer",
             "concurrent"
         ],
-        "profile_name": "default",
-        "project_name": "proyecto-prueba",
+
         "runtime": "python3.10",
         "s3_bucket": "dondqkwjndqwjdnqkwndqwdkjqwdjkwq",
         
